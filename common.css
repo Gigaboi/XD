@@ -1,0 +1,93 @@
+
+/****************************************/
+/* common styles used for v1 through v4 */
+/****************************************/
+
+body          { font-family: Arial, Helvetica, sans-serif; }
+#stats        { border: 2px solid black; position: absolute; top: 150px;}
+#controls     { width: 28em; float: left; padding: 1em; font-size: 0.7em; position: absolute; top: 100px;}
+#controls th  { text-align: right; vertical-align: middle; }
+#instructions { clear: left; float: left; width: 17em; padding: 1em; border: 1px solid black; box-shadow: 0 0 5px black; }
+#racer        { position: relative; z-index: 0; width: 640px; height: 480px; margin-left: 20em; border: 2px solid black; top: 50px;}
+#canvas       { position: absolute; z-index: 0; width: 640px; height: 480px; z-index: 0; background-color: #72D7EE; left: 0px;}
+#mute         { background-position:   0px 0px; width: 32px; height: 32px; background: url(images/mute.png); display: inline-block; cursor: pointer; position: absolute; margin-left: 20em; }
+#mute.on      { background-position: -32px 0px; }
+
+/**************************************************/
+/* rudimentary heads up display (only used in v4) */
+/**************************************************/
+
+#hud                   { position: absolute; z-index: 1; width: 640px; padding: 5px 0; font-family: Verdana, Geneva, sans-serif; font-size: 0.8em; background-color: rgba(255,0,0,0.4); color: black; border-bottom: 2px solid black; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+#hud .hud              { background-color: rgba(255,255,255,0.6); padding: 5px; border: 1px solid black; margin: 0 5px; transition-property: background-color; transition-duration: 2s; -webkit-transition-property: background-color; -webkit-transition-duration: 2s; }
+#hud #speed            { float: right; }
+#hud #current_lap_time { float: left;  }
+#hud #last_lap_time    { float: left; display: none;  }
+#hud #fast_lap_time    { display: block; width: 12em;  margin: 0 auto; text-align: center; transition-property: background-color; transition-duration: 2s; -webkit-transition-property: background-color; -webkit-transition-duration: 2s; }
+#hud .value            { color: black; font-weight: bold; }
+#hud .fastest          { background-color: rgba(255,215,0,0.5); }
+body {
+  background: #153a6e;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+}
+#tetris {
+  border: solid .2em #fff;
+  height: 90vh;
+  position: relative;
+  top: 60px;
+}
+#score {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  font-size: 70px;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 20px;
+  width: 10%;
+
+
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #857F7F;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+opacity: 0.8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+li a:hover {
+    background-color: #111;
+  }
+.banner {
+  position:fixed;
+}
+#over {
+  background-color: #153a6e;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  z-index: 100;
+
+}

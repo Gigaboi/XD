@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Tetris</title>
+    <style>
+      body {
+        background: #153a6e;
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+
+      }
+      #tetris {
+        border: solid .2em #fff;
+        height: 90vh;
+        position: relative;
+        top: 40px;
+      }
+      #score {
+        position: absolute;
+        top: 40%;
+        right: 20%;
+        font-size: 70px;
+        background-color: black;
+        opacity: 0.8;
+        border-radius: 20px;
+        width: 10%;
+
+
+      }
+      ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #857F7F;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      opacity: 0.8;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 10px 10px;
+          text-decoration: none;
+          font-family: 'Raleway', sans-serif;
+          font-size: 25px;
+      }
+
+      li a:hover {
+          background-color: #111;
+        }
+      .banner {
+        position:fixed;
+      }
+    </style>
+</head>
+<body>
+    <ul class="banner">
+      <li><a href="index.html">Go Back</a></li>
+      <li><a href="tetris.html">Refresh</a></li>
+    </ul>
+    <div id="score"></div>
+    <canvas id="tetris" width="240" height="400" />
+    <script src="tetris.js"></script>
+</body>
+</html>

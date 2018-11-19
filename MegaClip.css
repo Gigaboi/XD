@@ -1,0 +1,177 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+
+
+}
+
+
+body {
+  background-color: #153a6e;
+  background-image: url();
+  background-repeat:no-repeat;
+  background-size: 100% 500px;
+  background-position: top;
+  padding:0px;
+  margin: 0px;
+}
+
+.top img{
+  position:inherit;
+  width:1080px; ;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  height:700px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  -o-object-fit: contain;
+  z-index: 1;
+}
+
+.MegaClipRubrik {
+  font-family: 'Righteous', cursive;
+  font-size: 150px;
+  color:white;
+  z-index: 1000;
+  position:absolute;
+  top: 0px;
+  background-color: blue;
+  width:100%;
+  height: 0;
+  margin: 0:
+  padding:0;
+  margin-top: 270px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 40px rgba(0, 0,0, 1);
+
+
+}
+
+
+.top {
+  background-color: #153a6e;
+
+}
+
+.header {
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+  }
+
+.header table {
+  text-align: center;
+  background-color: #333333;
+  width: 100%;
+  margin: 0px;
+  margin-left: 0px;
+  font-size: 40px;
+  border-spacing: 0px;
+  padding: 0px;
+  position: sticky;
+
+
+}
+
+.header td {
+  padding: 20px;
+  margin: 0;
+  border: 0;
+  text-align: center;
+
+
+
+
+}
+
+.header td:hover {
+  background-color: rgba(41,41,41);
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.4);
+}
+
+
+.content {
+  text-align: left;
+
+
+}
+.content table {
+  text-align: center;
+  font-size: 25px;
+  background-color: rgba(0,0,0,0.2);
+  border-spacing: 0px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top:0px;
+  padding-top: 20px;
+  padding-bottom:20px;
+
+}
+.content table td:hover {
+text-decoration: underline;
+text-shadow: 0px 0px 20px rgba(255,255,255,0.4);
+}
+
+.abouttext {
+  font-size: 40px;
+  color:white;
+  text-align: center;
+  top:10px;
+  background-color: rgba(0,0,0,0.15);
+  text-shadow: 0px 0px 30px rgba(0,0,0,.9);
+  padding: 10px;
+  margin-left: -10px;
+
+}
+
+
+.abouttext:hover{
+  font-size: 40px;
+  color:white;
+  text-align: center;
+  top:10px;
+  background-color: rgba(0,0,0,0.15);
+
+  text-shadow: 0px 0px 20px rgba(255,255,255,.2);
+  padding: 10px;
+  margin-left: -10px;
+}
+
+.game img {
+
+  border-radius: 22px;
+  margin: 50px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+
+
+
+
+.bottom {
+  margin-bottom: 0px;
+}
+
+#trademark {
+  text-align: center;
+  color: rgba(255,255,255,1);
+  background-color: rgba(0,0,0,0.1);
+}
+
+
+tr {
+  display:flex;
+  flex-wrap:wrap; /* allow to wrap on multiple rows */
+}
+td {
+  display:block;
+  flex:1 /* to evenly distributs flex elements */
+}
